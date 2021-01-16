@@ -19,6 +19,26 @@ $(function(){
     ]
   })
 
+  $('.product-card__slider').slick({
+    prevArrow: '<button type="button" class="slick-btn slick-prev"><img src="images/arrow-prev-black.svg" alt=""></button>',
+    nextArrow: '<button type="button" class="slick-btn slick-next"><img src="images/arrow-next-black.svg" alt=""></button>',
+    // autoplay: true,
+    dots: true,
+    dotsClass: 'custom_paging',
+    customPaging: function (slider, i) {
+        console.log(slider);
+        return (i + 1) + '/' + slider.slideCount;
+    },
+    responsive: [
+      {
+        breakpoint: 691,
+        settings: {
+          arrows: false
+        }
+      },
+    ]
+  })
+
   $('.menu__btn').on('click', function(){
     $('.menu-language').toggleClass('menu-language--active')
   });
