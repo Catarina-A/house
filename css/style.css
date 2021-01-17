@@ -282,14 +282,8 @@ h2 {
   max-width: 62%;
 }
 
-.intro__contacts-item{
-  margin-right: 16px;
-  margin-bottom: 12px;
-}
-
 .intro__contacts-link {
-  /* padding-left: 18px; */
-  padding: 10px 18px;
+  padding: 10px 15px 10px 18px;
   position: relative;
 }
 
@@ -299,7 +293,7 @@ h2 {
   background-image: url(../images/pin.svg);
   height: 13px;
   width: 13px;
-  left: 2px;
+  left: 0;
   top: 13px;
 }
 
