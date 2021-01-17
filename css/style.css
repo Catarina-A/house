@@ -602,6 +602,8 @@ h2 {
   flex-direction: column;
   padding: 100px 80px;
   background-color: #FCFAFA;
+  font-size: 16px;
+  border-radius: none;
 }
 
 .consultation__form-title {

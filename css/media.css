@@ -241,7 +241,7 @@
   }
 
   .footer__phones {
-    padding: 3px 0;
+    padding: 7px 0;
   }
 
   .slick-prev {
@@ -319,6 +319,10 @@
   .product-card__descr-title {
     font-size: 26px;
     line-height: 33px;
+  }
+
+  .footer .menu__link {
+    padding: 5px 0;
   }
 }
 
@@ -649,7 +653,7 @@
     display: block;
   }
 
-  .footer .menu__item {
+   .header .menu__item {
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   }
 
@@ -659,7 +663,7 @@
   
   .header .menu__link,
   .header .language__list  {
-    padding: 15px 20px;
+    padding: 17px 23px;
   }
 
   .header__inner {
