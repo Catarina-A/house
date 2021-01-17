@@ -304,7 +304,7 @@ h2 {
   height: 13px;
   width: 13px;
   left: 1px;
-  top: 3px;
+  top: 12px;
 }
 
 .phone::before {
@@ -313,8 +313,8 @@ h2 {
   background-image: url(../images/phone.svg);
   height: 13px;
   width: 13px;
-  left: 4px;
-  top: 2px;
+  left: 1px;
+  top: 11px;
 }
 
 .intro-white-box {
