@@ -620,7 +620,7 @@ h2 {
   background-color: transparent;
   outline: none;
   font-size: 16px;
-  border-radius: none;
+  border-radius: 0px;
 }
 
 ::placeholder {
